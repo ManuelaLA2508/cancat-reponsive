@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Holy;
+    src: url(./fuente/Holyfat.ttf);
+}
+
+body{
+    background-image: url(/imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 87rem;
+    background-position-x: left ;
+    background-position-y: top;
+}
+
+.imglogo{
+    width: 20rem;
+    height: 15rem;
+    
+}
+
+.menu{
+    font-family: Holy;
+    font-size: 40pt;
+    list-style: none;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nav-item:hover{
+    color: white;
+    background-color: rgb(81, 233, 81);
+}
+
+.nav-link{
+    color: rgb(81, 233, 81);
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.primeros{
+    color: rgb(81, 233, 81);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.si{
+    font-size: 15pt;
+    color: rgb(58, 136, 225);
+}
+
+.boton{
+    color: white;
+    background-color: rgb(81, 233, 81);
+    border-radius: 100%;
+    width: 10rem;
+    height: 7rem;
+    font-size: 25pt;
+    font-family: Holy;
+    margin-left: 7rem; 
+}
+.boton:hover:hover{
+    color: white;
+    background-color: rgb(13, 79, 13);
+}
+
+
+.obj{
+    font-family: Holy;
+    background-color: rgba(255, 255, 255, 0.676);
+    color:rgb(81, 233, 81);
+    text-align: center;
+}
+
+.cap{
+    background-color:rgb(81, 233, 81) ;
+    color: white;
+}
+
+.video{
+    width: 70%;
+    height: 90%;
+    margin-left: 2rem;
+}
+
+.carru{
+    width: 90%;
+    height: 90%;
+    margin-left: 2rem;
+}
+
+.subtitulo{
+    font-family: Holy;
+    background-color: rgba(255, 255, 255, 0.676);
+    color:rgb(81, 233, 81);
+    text-align: center;
+}
+
+.parrafo{
+    background-color:rgb(81, 233, 81) ;
+    color: white;
+}
+
+
+.ficios{
+    color:rgb(81, 233, 81) ;
+    text-align: center;
+    font-family: Holy;
+    font-size: 30pt;
+    justify-content: right;
+}
+
+.imge:hover{
+    filter: brightness(150%);
+}
+
+.coles{
+    justify-content: center;
+}
+
+
+.foot{
+    background-color: rgba(172, 168, 168, 0.218);
+}
+
+.log2{
+    width: 50px;
+}
+
+.face{
+    width: 20px;
+    height: 20px;
+}
+
+.face:hover{
+    filter: contrast(30%);
+}
+
+.ins{
+    width: 20px;
+    height: 20px;
+    margin-left: 1rem;
+}
+
+.ins:hover{
+    filter: contrast(30%);
+}
